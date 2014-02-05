@@ -17,7 +17,7 @@ public class BatteryWidget extends AppWidgetProvider {
     private static final String ACTION_BATTERY_UPDATE = "com.yourdomain.battery.action.UPDATE";
     private static final int REFRESH_TIMEOUT_SECONDS = 30;
     private int batteryLevel = 0;
-	private final int BATTERY_STEPS = 10;
+    private final int BATTERY_STEPS = 10;
 
     @Override
     public void onEnabled(Context context) {
@@ -112,151 +112,121 @@ public class BatteryWidget extends AppWidgetProvider {
 
     }
 
-	/*
-	 * Helper method to show levels using bar images
-	 * - takes the last read battery level as parameter
-	 */
-	private void showBars(RemoteViews widgetViews, int currLevel)
-	{
-		if(currLevel>=10)
-		{
-			widgetViews.setImageViewResource(R.id.bar1, R.drawable.level_shape_low);
-			widgetViews.setViewVisibility(R.id.bar1, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar1, View.INVISIBLE);
-		if(currLevel>=20)
-		{
-			widgetViews.setImageViewResource(R.id.bar2, R.drawable.level_shape_low);
-			widgetViews.setViewVisibility(R.id.bar2, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar2, View.INVISIBLE);
-		if(currLevel>=30)
-		{
-			widgetViews.setImageViewResource(R.id.bar3, R.drawable.level_shape_low);
-			widgetViews.setViewVisibility(R.id.bar3, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar3, View.INVISIBLE);
-		if(currLevel>=40)
-		{
-			widgetViews.setImageViewResource(R.id.bar4, R.drawable.level_shape_mid);
-			widgetViews.setViewVisibility(R.id.bar4, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar4, View.INVISIBLE);
-		if(currLevel>=50)
-		{
-			widgetViews.setImageViewResource(R.id.bar5, R.drawable.level_shape_mid);
-			widgetViews.setViewVisibility(R.id.bar5, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar5, View.INVISIBLE);
-		if(currLevel>=60)
-		{
-			widgetViews.setImageViewResource(R.id.bar6, R.drawable.level_shape_mid);
-			widgetViews.setViewVisibility(R.id.bar6, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar6, View.INVISIBLE);
-		if(currLevel>=70)
-		{
-			widgetViews.setImageViewResource(R.id.bar7, R.drawable.level_shape_high);
-			widgetViews.setViewVisibility(R.id.bar7, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar7, View.INVISIBLE);
-		if(currLevel>=80)
-		{
-			widgetViews.setImageViewResource(R.id.bar8, R.drawable.level_shape_high);
-			widgetViews.setViewVisibility(R.id.bar8, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar8, View.INVISIBLE);
-		if(currLevel>=90)
-		{
-			widgetViews.setImageViewResource(R.id.bar9, R.drawable.level_shape_high);
-			widgetViews.setViewVisibility(R.id.bar9, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar9, View.INVISIBLE);
-		if(currLevel>=100)
-		{
-			widgetViews.setImageViewResource(R.id.bar10, R.drawable.level_shape_high);
-			widgetViews.setViewVisibility(R.id.bar10, View.VISIBLE);
-		}
-		else
-			widgetViews.setViewVisibility(R.id.bar10, View.INVISIBLE);
-			//deal with the remainder
-		int partLevel = currLevel % BATTERY_STEPS;
-			//find out how many full levels we have
-		int fullSteps = currLevel - partLevel;
-			//find out which is the next level up and call helper method to set partially visible
-		if(partLevel > 0) {
-            setPartStep(widgetViews, (fullSteps/BATTERY_STEPS)+1);
+    /*
+     * Helper method to show levels using bar images
+     * - takes the last read battery level as parameter
+     */
+    private void showBars(RemoteViews widgetViews, int currLevel) {
+        if (currLevel >= 10) {
+            widgetViews.setImageViewResource(R.id.bar1, R.drawable.level_shape_low);
+            widgetViews.setViewVisibility(R.id.bar1, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar1, View.INVISIBLE);
+        if (currLevel >= 20) {
+            widgetViews.setImageViewResource(R.id.bar2, R.drawable.level_shape_low);
+            widgetViews.setViewVisibility(R.id.bar2, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar2, View.INVISIBLE);
+        if (currLevel >= 30) {
+            widgetViews.setImageViewResource(R.id.bar3, R.drawable.level_shape_low);
+            widgetViews.setViewVisibility(R.id.bar3, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar3, View.INVISIBLE);
+        if (currLevel >= 40) {
+            widgetViews.setImageViewResource(R.id.bar4, R.drawable.level_shape_mid);
+            widgetViews.setViewVisibility(R.id.bar4, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar4, View.INVISIBLE);
+        if (currLevel >= 50) {
+            widgetViews.setImageViewResource(R.id.bar5, R.drawable.level_shape_mid);
+            widgetViews.setViewVisibility(R.id.bar5, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar5, View.INVISIBLE);
+        if (currLevel >= 60) {
+            widgetViews.setImageViewResource(R.id.bar6, R.drawable.level_shape_mid);
+            widgetViews.setViewVisibility(R.id.bar6, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar6, View.INVISIBLE);
+        if (currLevel >= 70) {
+            widgetViews.setImageViewResource(R.id.bar7, R.drawable.level_shape_high);
+            widgetViews.setViewVisibility(R.id.bar7, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar7, View.INVISIBLE);
+        if (currLevel >= 80) {
+            widgetViews.setImageViewResource(R.id.bar8, R.drawable.level_shape_high);
+            widgetViews.setViewVisibility(R.id.bar8, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar8, View.INVISIBLE);
+        if (currLevel >= 90) {
+            widgetViews.setImageViewResource(R.id.bar9, R.drawable.level_shape_high);
+            widgetViews.setViewVisibility(R.id.bar9, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar9, View.INVISIBLE);
+        if (currLevel >= 100) {
+            widgetViews.setImageViewResource(R.id.bar10, R.drawable.level_shape_high);
+            widgetViews.setViewVisibility(R.id.bar10, View.VISIBLE);
+        } else
+            widgetViews.setViewVisibility(R.id.bar10, View.INVISIBLE);
+        //deal with the remainder
+        int partLevel = currLevel % BATTERY_STEPS;
+        //find out how many full levels we have
+        int fullSteps = currLevel - partLevel;
+        //find out which is the next level up and call helper method to set partially visible
+        if (partLevel > 0) {
+            setPartStep(widgetViews, (fullSteps / BATTERY_STEPS) + 1);
         }
         LogFile.log("showBars(): Battery level = " + batteryLevel + "; partLevel = " + partLevel);
-	}
-	
-		/*
-		 * Helper method to set partial level step drawable
-		 * - takes the partial level to set visible
-		 */
-	private void setPartStep(RemoteViews widgetViews, int partLevel)
-	{
-			//precaution - should not really be necessary
-		if(partLevel > BATTERY_STEPS) return;
-		else
-		{
-				//the process should only be setting one level
-				//I.E. for 45% the fifth bar up from the bottom should be set partially visible
-				//- find out which level and set the image drawable, then visibility
-	    	switch(partLevel)
-	    	{
-	    	case 1:
-	    		widgetViews.setImageViewResource(R.id.bar1, R.drawable.level_shape_low_alpha);
-				widgetViews.setViewVisibility(R.id.bar1, View.VISIBLE);
-	    		break;
-	    	case 2:
-	    		widgetViews.setImageViewResource(R.id.bar2, R.drawable.level_shape_low_alpha);
-				widgetViews.setViewVisibility(R.id.bar2, View.VISIBLE);
-	    		break;
-	    	case 3:
-	    		widgetViews.setImageViewResource(R.id.bar3, R.drawable.level_shape_low_alpha);
-				widgetViews.setViewVisibility(R.id.bar3, View.VISIBLE);
-	    		break;
-	    	case 4:
-	    		widgetViews.setImageViewResource(R.id.bar4, R.drawable.level_shape_mid_alpha);
-				widgetViews.setViewVisibility(R.id.bar4, View.VISIBLE);
-	    		break;
-	    	case 5:
-	    		widgetViews.setImageViewResource(R.id.bar5, R.drawable.level_shape_mid_alpha);
-				widgetViews.setViewVisibility(R.id.bar5, View.VISIBLE);
-	    		break;
-	    	case 6:
-	    		widgetViews.setImageViewResource(R.id.bar6, R.drawable.level_shape_mid_alpha);
-				widgetViews.setViewVisibility(R.id.bar6, View.VISIBLE);
-	    		break;
-	    	case 7:
-	    		widgetViews.setImageViewResource(R.id.bar7, R.drawable.level_shape_high_alpha);
-				widgetViews.setViewVisibility(R.id.bar7, View.VISIBLE);
-	    		break;
-	    	case 8:
-	    		widgetViews.setImageViewResource(R.id.bar8, R.drawable.level_shape_high_alpha);
-				widgetViews.setViewVisibility(R.id.bar8, View.VISIBLE);
-	    		break;
-	    	case 9:
-	    		widgetViews.setImageViewResource(R.id.bar9, R.drawable.level_shape_high_alpha);
-				widgetViews.setViewVisibility(R.id.bar9, View.VISIBLE);
-	    		break;
-	    	case 10:
-	    		widgetViews.setImageViewResource(R.id.bar10, R.drawable.level_shape_high_alpha);
-				widgetViews.setViewVisibility(R.id.bar10, View.VISIBLE);
-	    		break;
-	    	default:
-	    		break;
-	    	}
-	    }
-	} 
+    }
+
+    /*
+     * Helper method to set partial level step drawable
+     * - takes the partial level to set visible
+     */
+    private void setPartStep(RemoteViews widgetViews, int partLevel) {
+
+        switch (partLevel) {
+            case 1:
+                widgetViews.setImageViewResource(R.id.bar1, R.drawable.level_shape_low_alpha);
+                widgetViews.setViewVisibility(R.id.bar1, View.VISIBLE);
+                break;
+            case 2:
+                widgetViews.setImageViewResource(R.id.bar2, R.drawable.level_shape_low_alpha);
+                widgetViews.setViewVisibility(R.id.bar2, View.VISIBLE);
+                break;
+            case 3:
+                widgetViews.setImageViewResource(R.id.bar3, R.drawable.level_shape_low_alpha);
+                widgetViews.setViewVisibility(R.id.bar3, View.VISIBLE);
+                break;
+            case 4:
+                widgetViews.setImageViewResource(R.id.bar4, R.drawable.level_shape_mid_alpha);
+                widgetViews.setViewVisibility(R.id.bar4, View.VISIBLE);
+                break;
+            case 5:
+                widgetViews.setImageViewResource(R.id.bar5, R.drawable.level_shape_mid_alpha);
+                widgetViews.setViewVisibility(R.id.bar5, View.VISIBLE);
+                break;
+            case 6:
+                widgetViews.setImageViewResource(R.id.bar6, R.drawable.level_shape_mid_alpha);
+                widgetViews.setViewVisibility(R.id.bar6, View.VISIBLE);
+                break;
+            case 7:
+                widgetViews.setImageViewResource(R.id.bar7, R.drawable.level_shape_high_alpha);
+                widgetViews.setViewVisibility(R.id.bar7, View.VISIBLE);
+                break;
+            case 8:
+                widgetViews.setImageViewResource(R.id.bar8, R.drawable.level_shape_high_alpha);
+                widgetViews.setViewVisibility(R.id.bar8, View.VISIBLE);
+                break;
+            case 9:
+                widgetViews.setImageViewResource(R.id.bar9, R.drawable.level_shape_high_alpha);
+                widgetViews.setViewVisibility(R.id.bar9, View.VISIBLE);
+                break;
+            case 10:
+                widgetViews.setImageViewResource(R.id.bar10, R.drawable.level_shape_high_alpha);
+                widgetViews.setViewVisibility(R.id.bar10, View.VISIBLE);
+                break;
+            default:
+                break;
+        }
+    }
 }
