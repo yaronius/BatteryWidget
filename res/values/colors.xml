@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="dark_green">#003300</color>
+<color name="light_green">#99FF66</color>
+<color name="dark_red">#990000</color>
+<color name="light_red">#FF9999</color>
+<color name="dark_yellow">#CC3300</color>
+<color name="light_yellow">#FFFF66</color>
+<color name="dark_green_alpha">#99003300</color>
+<color name="light_green_alpha">#9999FF66</color>
+<color name="dark_red_alpha">#99FF0000</color>
+<color name="light_red_alpha">#99FF9999</color>
+<color name="dark_yellow_alpha">#99CC9900</color>
+<color name="light_yellow_alpha">#99FFFF66</color>
+</resources>
