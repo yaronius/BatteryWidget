@@ -1,18 +1,18 @@
 package com.yourdomain.battery;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.view.View;
-import android.widget.RemoteViews;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 import android.os.BatteryManager;
 import android.os.SystemClock;
 import android.util.Log;
+import android.view.View;
+import android.widget.RemoteViews;
 
 public class BatteryWidget extends AppWidgetProvider {
     private static final String ACTION_BATTERY_UPDATE = "com.yourdomain.battery.action.UPDATE";
@@ -107,16 +107,26 @@ public class BatteryWidget extends AppWidgetProvider {
         int partLevel = currLevel % BATTERY_STEPS;
         //find out how many full levels we have
         int fullSteps = (currLevel - partLevel) / BATTERY_STEPS;
+        int fullBarId = R.drawable.level_shape_low;
+        int partBarId = R.drawable.level_shape_low_alpha;
+        if (fullSteps > 5) {
+            fullBarId = R.drawable.level_shape_high;
+            partBarId = R.drawable.level_shape_high_alpha;
+        } else if (fullSteps > 3) {
+            fullBarId = R.drawable.level_shape_mid;
+            partBarId = R.drawable.level_shape_mid_alpha;
+        }
+
         Log.i("info", "showBars(): fullSteps = " + fullSteps + "; partLevel = " + partLevel);
         for (int i = 1; i <= BATTERY_STEPS; i++) {
             int barId = context.getResources().getIdentifier("bar"+i, "id", context.getPackageName());
             Log.i("info", "showBars(): Name = bar" + i + "; id = " + barId);
             if (i <= fullSteps) {
-                widgetViews.setImageViewResource(barId, R.drawable.level_shape_high);
+                widgetViews.setImageViewResource(barId, fullBarId);
                 widgetViews.setViewVisibility(barId, View.VISIBLE);
                 Log.i("info", "showBars(): Name = bar" + i + "; visible full");
             } else if (i == (fullSteps + 1) && partLevel > 0) {
-                widgetViews.setImageViewResource(barId, R.drawable.level_shape_high_alpha);
+                widgetViews.setImageViewResource(barId, partBarId);
                 widgetViews.setViewVisibility(barId, View.VISIBLE);
                 Log.i("info", "showBars(): Name = bar" + i + "; visible partial");
             } else {
