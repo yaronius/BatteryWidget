@@ -10,13 +10,17 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Process id: 372" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="02020d14-8603-43e8-8557-7a7e28a70d16" name="Default" comment="Update&#10;">
-      <change type="DELETED" beforePath="C:\Users\Yaronius\IdeaProjects\MyBatteryWidget\src\com\yourdomain\battery\LogFile.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java" afterPath="$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java" />
+    <list default="true" id="02020d14-8603-43e8-8557-7a7e28a70d16" name="Default" comment="Resizing&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/batt_bg.xml" afterPath="$PROJECT_DIR$/res/drawable/batt_bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/icon.xml" afterPath="$PROJECT_DIR$/res/drawable/icon.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/level_shape_high.xml" afterPath="$PROJECT_DIR$/res/drawable/level_shape_high.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/level_shape_high_alpha.xml" afterPath="$PROJECT_DIR$/res/drawable/level_shape_high_alpha.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/level_shape_low.xml" afterPath="$PROJECT_DIR$/res/drawable/level_shape_low.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/level_shape_low_alpha.xml" afterPath="$PROJECT_DIR$/res/drawable/level_shape_low_alpha.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/level_shape_mid.xml" afterPath="$PROJECT_DIR$/res/drawable/level_shape_mid.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/level_shape_mid_alpha.xml" afterPath="$PROJECT_DIR$/res/drawable/level_shape_mid_alpha.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/top_line.xml" afterPath="$PROJECT_DIR$/res/drawable/top_line.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LovelyBattery.iws" />
@@ -81,33 +85,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BatteryWidget.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java">
+      <file leaf-file-name="ScreenMonitorService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="34" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.0" vertical-offset="1898" max-vertical-offset="2448">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="battery_widget.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/battery_widget.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="32" selection-start="346" selection-end="346" vertical-scroll-proportion="-3.4" vertical-offset="51" max-vertical-offset="1479">
+            <state line="26" column="38" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScreenMonitorService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java">
+      <file leaf-file-name="icon.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable/icon.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.8223801" vertical-offset="149" max-vertical-offset="1088">
+            <state line="11" column="6" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="level_shape_high_alpha.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/drawable/level_shape_high_alpha.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="8" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5067751" vertical-offset="0" max-vertical-offset="369">
               <folding />
             </state>
           </provider>
@@ -133,6 +132,15 @@
         <option value="$PROJECT_DIR$/res/layout/battery_widget.xml" />
         <option value="$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java" />
         <option value="$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java" />
+        <option value="$PROJECT_DIR$/res/drawable/batt_bg.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/level_shape_high.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/level_shape_low.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/level_shape_low_alpha.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/level_shape_mid.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/level_shape_mid_alpha.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/top_line.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/icon.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/level_shape_high_alpha.xml" />
       </list>
     </option>
   </component>
@@ -243,6 +251,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LovelyBattery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyBatteryWidget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,7 +477,11 @@
       <created>1391725597968</created>
       <updated>1391725597968</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed logging to SD card&#10;">
+      <created>1391725767548</created>
+      <updated>1391725767548</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -461,7 +491,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -471,14 +501,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53480476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -500,7 +530,9 @@
     </option>
     <MESSAGE value="Update" />
     <MESSAGE value="Update&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update&#10;" />
+    <MESSAGE value="Removed logging to SD card&#10;" />
+    <MESSAGE value="Resizing&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resizing&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -627,16 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/battery_widget.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="346" selection-end="346" vertical-scroll-proportion="-3.4" vertical-offset="51" max-vertical-offset="1479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="34" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.0" vertical-offset="1898" max-vertical-offset="2448">
@@ -646,9 +668,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/battery_widget.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="346" selection-end="346" vertical-scroll-proportion="-5.44" vertical-offset="0" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/batt_bg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/level_shape_high.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="356" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/level_shape_low.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/level_shape_low_alpha.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/level_shape_mid_alpha.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/top_line.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="216" selection-end="216" vertical-scroll-proportion="0.34274194" vertical-offset="0" max-vertical-offset="248">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/level_shape_mid.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="363" selection-end="363" vertical-scroll-proportion="0.6169355" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.8223801" vertical-offset="149" max-vertical-offset="1088">
+        <state line="26" column="38" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/icon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/level_shape_high_alpha.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="442" selection-end="442" vertical-scroll-proportion="0.5067751" vertical-offset="0" max-vertical-offset="369">
           <folding />
         </state>
       </provider>
