@@ -15,7 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02020d14-8603-43e8-8557-7a7e28a70d16" name="Default" comment="Update&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java" afterPath="$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java" />
+      <change type="DELETED" beforePath="C:\Users\Yaronius\IdeaProjects\MyBatteryWidget\src\com\yourdomain\battery\LogFile.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java" afterPath="$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LovelyBattery.iws" />
@@ -80,10 +81,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BatteryWidget.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BatteryWidget.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="34" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.33146068" vertical-offset="885" max-vertical-offset="2448">
+            <state line="59" column="34" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.0" vertical-offset="1898" max-vertical-offset="2448">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,19 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScreenMonitorService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ScreenMonitorService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="1" selection-start="2459" selection-end="2459" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1530">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/LogFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="765">
+            <state line="47" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.8223801" vertical-offset="149" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -135,12 +127,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/yourdomain/battery/LogFile.java" />
-        <option value="$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java" />
         <option value="$PROJECT_DIR$/src/com/yourdomain/battery/LovelyBatteryWidget.java" />
         <option value="$PROJECT_DIR$/res/xml/battery_widget_info.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/battery_widget.xml" />
         <option value="$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java" />
+        <option value="$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java" />
       </list>
     </option>
   </component>
@@ -455,7 +447,11 @@
       <created>1391724838363</created>
       <updated>1391724838363</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update&#10;">
+      <created>1391725597968</created>
+      <updated>1391725597968</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -468,25 +464,25 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53480476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -543,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/LogFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="43" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="4046">
@@ -562,13 +551,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="1" selection-start="2459" selection-end="2459" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/LogFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
@@ -608,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/LogFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="66" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="3060">
@@ -643,26 +618,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/LogFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="66" selection-start="527" selection-end="533" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding>
             <element signature="e#280#298#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="1" selection-start="2459" selection-end="2459" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1350">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,10 +639,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/BatteryWidget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="34" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.33146068" vertical-offset="885" max-vertical-offset="2448">
+        <state line="59" column="34" selection-start="2325" selection-end="2325" vertical-scroll-proportion="0.0" vertical-offset="1898" max-vertical-offset="2448">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yourdomain/battery/ScreenMonitorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.8223801" vertical-offset="149" max-vertical-offset="1088">
+          <folding />
         </state>
       </provider>
     </entry>
